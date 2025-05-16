@@ -6,8 +6,13 @@
     <title>video-audio-iframe</title>
 </head>
 <body>
-   <video controls>
-     <source src="VID_20231008_164356.mp4">
+   <video width="500px" height="=200px" controls loop autoplay muted>
+     <source src="http://www.example.com/waterfall-video.mp4" type="video/mp4"/>
    </video>
+   <audio preload="auto" controls="controls" autoplay="autoplay" >
+     <source src="https://woolyss.com/f/audio-sample.mp3">
+   </audio>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/7VcspVgG3Eg?si=j_nx1O5NGYP--N7F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   
 </body>
 </html>
