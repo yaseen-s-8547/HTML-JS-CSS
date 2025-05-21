@@ -1,0 +1,41 @@
+button{
+    background:red;
+    color:blue;
+    
+
+}
+#para1{
+    color:blueviolet
+}
+#para2{
+    color:rgb(213, 205, 209)
+}
+.content{
+    background-color: chartreuse;
+    color: rgb(227, 7, 227);
+}
+.box{
+    width:500px;
+    height:200px;
+    background:gold;
+    margin-left:50px;
+    margin-top:40px;
+    padding-left:50px;
+    padding-top: 89px;
+    border: 5px;
+    border-color: red;
+}
+.inner-div{
+    margin:10px;
+    background: yellowgreen;
+    width: 490px;
+    height: 191px;
+    border: gray;
+    border-color: black;
+}
+.white{
+    color:red;
+}
+/*p{
+    size: 10px solid red; 
+}

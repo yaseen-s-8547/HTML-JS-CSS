@@ -7,19 +7,22 @@
 </head>
 <body>
     <forms>
-        <label>Full Name</label>
-        <input type="text">
+        <label for="username">Full Name</label>
+        <input id="username"    type="text" placeholder="usrnme">
         <br>
         <label>Age</label>
         <input type="number">
         <br>
-        <label>Email</label>
-        <input type="email">
+        <label for="mail">Email</label>
+        <input id="mail" type="email">
+        <br>
+         <label for="dob">mail</label>
+        <input id="dob" type="date">
         <br>
         <label>Gender</label>
-        <input type="radio">
+        <input type="radio" name="gender">
         <label>Male</label>
-        <input type="radio">
+        <input type="radio" name="gender">
         <label>female</label>
         <br>
         <label>Qualification</label>
@@ -31,6 +34,7 @@
             <option>PG</option>
             <option>ORthe man from nowhere</option>
         </select>
+       
         <br>
         <label>Skills</label>
         <input type="checkbox">
@@ -40,6 +44,16 @@
         <input type="checkbox">
         <label>JS</label>
         <input type="submit">
+        <br>
+        <label>upload your memory</label>
+        <input type="file">
+        <br>
+         <label>number</label>
+        <input type="number" min="20" max="22">
+        <br>
+        <label>text area</label>
+        <textarea placeholder="address" rows="10" cols="50"></textarea>
+
     </forms>
     
 </body>
