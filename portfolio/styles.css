@@ -1,0 +1,21 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#container{
+    width:100%;
+    height:100vh;
+}
+#navbar{
+    display:flex;
+    width:85%;
+    margin-left:100px;
+    /* justify-content: space-between;horzonatl movement */
+    align-items: center;   
+    /* align item vertical movement */
+}
+#log{
+    width:130px;
+}
