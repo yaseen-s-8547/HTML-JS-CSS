@@ -11,11 +11,59 @@
 #navbar{
     display:flex;
     width:85%;
+   
     margin-left:100px;
-    /* justify-content: space-between;horzonatl movement */
     align-items: center;   
     /* align item vertical movement */
+    justify-content: space-between;
+    /* justify-content: space-between;horzonatl movement */
 }
-#log{
+#contents{
+    
+}
+#logo{
     width:130px;
+}
+.listitems{
+    display:inline-block;
+    margin:20px 30px;
+    list-style: none;/*to remove the bullet points*/
+}
+.listitems a{
+    color:black;
+    text-decoration: none;/*to remove underline*/
+    font-weight: 700;
+}
+.listitems a:hover{
+    color:red;
+}
+
+#leftside{
+    margin-top: 224px;
+    margin-left: 82px;
+
+}
+#rightside{
+margin-left: 510px;
+margin-top: -323px;
+}
+#image3{
+
+}
+#leftside h1{
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+#steel{
+    color:brown;
+}
+#leftside p{
+    margin-bottom: 30px;
+}
+#download{
+    background-color: black;
+    color:bisque;
+    text-decoration: none;
+    padding:10px;
+    border-radius:5px;/*to increase border radius*/
 }
