@@ -1,0 +1,114 @@
+*{
+    font-family: "Playfair Display", serif;
+    margin: 0px;
+    padding: 0px;
+}
+#logo{
+    height:100px;
+}
+:root{
+    --x:rgb(107,5,5)
+}
+#navbutton{
+    background-color: var(--x);
+    color: white;
+}
+#navbutton:hover{
+    background-color: rgb(152, 7, 7);
+    color:var(--x);
+    border-color: var(--x);
+
+}
+li i{
+    color:rgb(195,193,193);
+}
+li i:hover{
+    color:rgb(215, 218, 216)
+}
+#main{
+    background-image: url(images/fur1.jpg);
+    
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+#welcome{
+    padding-top: 22%;
+    padding-left: 5%;
+}
+#welcome h4{
+    font-size:30px;
+
+}
+#welcome h1{
+    font-size: 100px;
+}
+@media(max-width:992px){
+    #welcome h4{
+        font-size: 20px;
+    }
+    #welcome h1{
+        font-size: 50px;
+
+    }
+}
+#backg{
+    background-color: rgba(0, 0,0, 0.23);
+    height:130vh;
+    width:100%;
+    background-attachment: fixed;
+}
+#work{
+padding-top:10%;
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlWl05wbbA_XPNCyGS2y75iqUBjD4gRBn9pw&s");}
+
+.viewbutton{
+    border:1px solid;
+    color:var(--x)
+}
+.viewbutton:hover{
+    background-color:var(--x);
+    color: aliceblue;
+}
+#about{
+    background-color: rgb(242, 229, 229);
+    padding: 10% 0%;
+    margin-left: -52px;
+}
+#about-img{
+    border:7px solid var(--x);
+    width:35%;
+    height: 490px;
+    padding-top:4%;
+    padding-left:4%;
+    box-sizing: content-box;
+    
+
+}
+#about-img img{
+    width: 618px;
+    height: 514px;
+
+}
+#about h1{
+    color:var(--x);
+    
+}
+#about p{
+    text-align :justify;
+}
+.hr{
+    background-color:var(--x);
+    width:20%;
+    height:0.25rem
+}
+
+
+
+
+
+
+
+

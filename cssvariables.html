@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css variables</title>
+    <style>
+        :root{
+            --x:blue; /*<!--global v ariable-->*/
+        }
+        h1{
+            color:var(--x);
+        }
+        p{
+            --y:yellow;    /*<!--local v ariable-->*/
+
+            background-color: var(--x);
+        }
+    </style>
+</head>
+<body>
+    <h1>css variables</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut, quidem pariatur! Nostrum enim quas quo id unde perferendis corrupti, cum tenetur, beatae doloribus nulla molestiae vel. Tempora earum inventore minima!,Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum odit nam eveniet at distinctio dicta harum fugiat quidem, quos reprehenderit exercitationem veritatis placeat accusantium magni similique quod deleniti ullam sunt!lorem,Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet et voluptas totam eius sunt veritatis quis aspernatur deleniti alias, adipisci ipsa placeat harum distinctio non, sequi iusto! Quae, incidunt quaerat.</p>
+</body>
+</html>
